@@ -1,0 +1,32 @@
+#qr img{
+  border-radius: 12px;
+  width: 100%;
+}
+
+#textbox {
+  background-color: white;
+  padding: 16px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 300px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+}
+
+#textbox p:first-of-type {
+  font-weight: 700;
+  margin: 16px 0px 12px;
+  font-size: 18px;
+}
+  
+#textbox p:last-of-type {
+  margin: 0px 0px 12px;
+  font-size: 15px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aliceblue;
+}
